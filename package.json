@@ -1,0 +1,20 @@
+{
+  "name": "cryptobot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scraper.js",
+  "dependencies": {
+    "json2csv": "^4.1.3",
+    "jsonfile": "^4.0.0",
+    "read-last-lines": "^1.4.0",
+    "sync-request": "^6.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scrape-binance": "node scraper.js",
+    "dynamic-scraper": "casperjs dynamic_scraper/scraper.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

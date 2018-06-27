@@ -1,0 +1,6 @@
+{
+    "domain":"https://www.etoro.com/markets/btc",
+    "selector":"span.head-info-stats-value",
+    "scrapeIntervalMS":1000,
+    "currency":"BTCUSDT"
+}

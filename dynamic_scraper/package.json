@@ -1,0 +1,16 @@
+{
+  "name": "dynamic_scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scraper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dynamic-scrape": "casperjs dynamic_scraper/scraper.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "casperjs": "^1.1.4",
+    "phantom": "^6.0.0"
+  }
+}
